@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_db1caa4044e6a48fbe15bee5f7946b33 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_db1caa4044e6a48fbe15bee5f7946b33" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_db1caa4044e6a48fbe15bee5f7946b33 = L.map(
+                "map_db1caa4044e6a48fbe15bee5f7946b33",
+                {
+                    center: [24.3, 55.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_052a252468a536fce8d413598d6d5c83 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_052a252468a536fce8d413598d6d5c83.addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var marker_40912fcd6368299f34a41207331592e4 = L.marker(
+                [24.216167, 55.752722],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_c2d874a819f69bdd8100d2a209d0a6ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40912fcd6368299f34a41207331592e4.setIcon(icon_c2d874a819f69bdd8100d2a209d0a6ed);
+        
+    
+        var popup_a9a1416f7bfeca634eca91920450b70e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0ad8ddd610b1f7b78affc7903816c6a7 = $(`<div id="html_0ad8ddd610b1f7b78affc7903816c6a7" style="width: 100.0%; height: 100.0%;">Site Name: NS1<br>Location: Town_center<br>Latitude: 24.216167<br>Longitude: 55.752722<br>Irrigation: Non_saline<br>pH (Water): 6.96<br>pH (Soil): 7.24<br>EC (Water): 0.426 dS/m<br>EC (Soil): 0.24 dS/m<br>Organic Matter: 3.9%</div>`)[0];
+                popup_a9a1416f7bfeca634eca91920450b70e.setContent(html_0ad8ddd610b1f7b78affc7903816c6a7);
+            
+        
+
+        marker_40912fcd6368299f34a41207331592e4.bindPopup(popup_a9a1416f7bfeca634eca91920450b70e)
+        ;
+
+        
+    
+    
+            var marker_1dad1de1ae416782c311ea953568213f = L.marker(
+                [24.90807, 55.971203],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_d9f1056d5e494e30bf671f485df8d81e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1dad1de1ae416782c311ea953568213f.setIcon(icon_d9f1056d5e494e30bf671f485df8d81e);
+        
+    
+        var popup_df3140b09813590ee7afd743d799c7d8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0516ba3141021b18b6fb585e3c3e50c0 = $(`<div id="html_0516ba3141021b18b6fb585e3c3e50c0" style="width: 100.0%; height: 100.0%;">Site Name: NS2<br>Location: Nahel_1<br>Latitude: 24.90807<br>Longitude: 55.971203<br>Irrigation: Non_saline<br>pH (Water): 7.9<br>pH (Soil): 7.1<br>EC (Water): 0.324 dS/m<br>EC (Soil): 0.38 dS/m<br>Organic Matter: 4.94%</div>`)[0];
+                popup_df3140b09813590ee7afd743d799c7d8.setContent(html_0516ba3141021b18b6fb585e3c3e50c0);
+            
+        
+
+        marker_1dad1de1ae416782c311ea953568213f.bindPopup(popup_df3140b09813590ee7afd743d799c7d8)
+        ;
+
+        
+    
+    
+            var marker_bf354c0d5fb1bc43e6e2246608b49ff5 = L.marker(
+                [24.866021, 56.098628],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_6d3354f73a75f6979d5e126a0d547271 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf354c0d5fb1bc43e6e2246608b49ff5.setIcon(icon_6d3354f73a75f6979d5e126a0d547271);
+        
+    
+        var popup_6e0fc3e5129799fd5dd39dcb93ae808d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_288bbd04aeeb599676ee9a0ae6c5f5af = $(`<div id="html_288bbd04aeeb599676ee9a0ae6c5f5af" style="width: 100.0%; height: 100.0%;">Site Name: NS3<br>Location: Nahel_2<br>Latitude: 24.866021<br>Longitude: 56.098628<br>Irrigation: Non_saline<br>pH (Water): 7.99<br>pH (Soil): 7.52<br>EC (Water): 0.337 dS/m<br>EC (Soil): 0.168 dS/m<br>Organic Matter: 3.58%</div>`)[0];
+                popup_6e0fc3e5129799fd5dd39dcb93ae808d.setContent(html_288bbd04aeeb599676ee9a0ae6c5f5af);
+            
+        
+
+        marker_bf354c0d5fb1bc43e6e2246608b49ff5.bindPopup(popup_6e0fc3e5129799fd5dd39dcb93ae808d)
+        ;
+
+        
+    
+    
+            var marker_90c0eec859bf0913715f394461de8633 = L.marker(
+                [24.898875, 55.849075],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_92acb393a032deaac20e9d2b23a4493a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_90c0eec859bf0913715f394461de8633.setIcon(icon_92acb393a032deaac20e9d2b23a4493a);
+        
+    
+        var popup_3045093fc42c88f1139fabc0305eb903 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bd3c1c313be049734d10c6eb67894102 = $(`<div id="html_bd3c1c313be049734d10c6eb67894102" style="width: 100.0%; height: 100.0%;">Site Name: NS4<br>Location: Nahel_3<br>Latitude: 24.898875<br>Longitude: 55.849075<br>Irrigation: Non_saline<br>pH (Water): 7.99<br>pH (Soil): 7.52<br>EC (Water): 0.335 dS/m<br>EC (Soil): 0.113 dS/m<br>Organic Matter: 4.93%</div>`)[0];
+                popup_3045093fc42c88f1139fabc0305eb903.setContent(html_bd3c1c313be049734d10c6eb67894102);
+            
+        
+
+        marker_90c0eec859bf0913715f394461de8633.bindPopup(popup_3045093fc42c88f1139fabc0305eb903)
+        ;
+
+        
+    
+    
+            var marker_929eb2416bb17e13a2253583e388d3ba = L.marker(
+                [24.100806, 55.535722],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_d596ecdeb42df6fbe105dc8731d65f91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_929eb2416bb17e13a2253583e388d3ba.setIcon(icon_d596ecdeb42df6fbe105dc8731d65f91);
+        
+    
+        var popup_c5367c81d2537c80bbacf7e8b17a43a3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_00e0f21fc1fb647adb464543cfc6fc9d = $(`<div id="html_00e0f21fc1fb647adb464543cfc6fc9d" style="width: 100.0%; height: 100.0%;">Site Name: NS5<br>Location: Al_rawda<br>Latitude: 24.100806<br>Longitude: 55.535722<br>Irrigation: Non_saline<br>pH (Water): 7.78<br>pH (Soil): 7.63<br>EC (Water): 0.326 dS/m<br>EC (Soil): 0.149 dS/m<br>Organic Matter: 1.75%</div>`)[0];
+                popup_c5367c81d2537c80bbacf7e8b17a43a3.setContent(html_00e0f21fc1fb647adb464543cfc6fc9d);
+            
+        
+
+        marker_929eb2416bb17e13a2253583e388d3ba.bindPopup(popup_c5367c81d2537c80bbacf7e8b17a43a3)
+        ;
+
+        
+    
+    
+            var marker_c64b1fa2f17c137dc1180c910f58b5f8 = L.marker(
+                [24.203516, 55.814833],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_fef0efc0afa3e84883493d827480fe5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c64b1fa2f17c137dc1180c910f58b5f8.setIcon(icon_fef0efc0afa3e84883493d827480fe5e);
+        
+    
+        var popup_a861629a30b12c571b02687fbfb1053a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_63f92c4f6363353825eaa7711cb8c443 = $(`<div id="html_63f92c4f6363353825eaa7711cb8c443" style="width: 100.0%; height: 100.0%;">Site Name: NS6<br>Location: Seah_sharkiya<br>Latitude: 24.203516<br>Longitude: 55.814833<br>Irrigation: Non_saline<br>pH (Water): 7.8<br>pH (Soil): 7.11<br>EC (Water): 0.374 dS/m<br>EC (Soil): 0.043 dS/m<br>Organic Matter: 5.71%</div>`)[0];
+                popup_a861629a30b12c571b02687fbfb1053a.setContent(html_63f92c4f6363353825eaa7711cb8c443);
+            
+        
+
+        marker_c64b1fa2f17c137dc1180c910f58b5f8.bindPopup(popup_a861629a30b12c571b02687fbfb1053a)
+        ;
+
+        
+    
+    
+            var marker_95bae9f18b993ec7aad5271d3fce361e = L.marker(
+                [24.301667, 55.718583],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_76e31c6751452eb0adcd4869d982775f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_95bae9f18b993ec7aad5271d3fce361e.setIcon(icon_76e31c6751452eb0adcd4869d982775f);
+        
+    
+        var popup_47b45cd90f6c00d4fa5b0af6c92dcc34 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a018baa94adee47e7f2c652d06e489f0 = $(`<div id="html_a018baa94adee47e7f2c652d06e489f0" style="width: 100.0%; height: 100.0%;">Site Name: NS7<br>Location: Nabbagh<br>Latitude: 24.301667<br>Longitude: 55.718583<br>Irrigation: Non_saline<br>pH (Water): 7.29<br>pH (Soil): 7.08<br>EC (Water): 3.22 dS/m<br>EC (Soil): 0.001 dS/m<br>Organic Matter: 5.125%</div>`)[0];
+                popup_47b45cd90f6c00d4fa5b0af6c92dcc34.setContent(html_a018baa94adee47e7f2c652d06e489f0);
+            
+        
+
+        marker_95bae9f18b993ec7aad5271d3fce361e.bindPopup(popup_47b45cd90f6c00d4fa5b0af6c92dcc34)
+        ;
+
+        
+    
+    
+            var marker_78722f9ad9274185430861fcdc897e37 = L.marker(
+                [24.202222, 55.788361],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_a6027e5276cd8d613064d808f1533a49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_78722f9ad9274185430861fcdc897e37.setIcon(icon_a6027e5276cd8d613064d808f1533a49);
+        
+    
+        var popup_7d956912df67aed2a0207ad25e5c8baf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9d8be85a6c902545e1aea5c24d0d04a6 = $(`<div id="html_9d8be85a6c902545e1aea5c24d0d04a6" style="width: 100.0%; height: 100.0%;">Site Name: S1<br>Location: Sarooj<br>Latitude: 24.202222<br>Longitude: 55.788361<br>Irrigation: Saline<br>pH (Water): 7.55<br>pH (Soil): 6.91<br>EC (Water): 13.6 dS/m<br>EC (Soil): 0.22 dS/m<br>Organic Matter: 3.33%</div>`)[0];
+                popup_7d956912df67aed2a0207ad25e5c8baf.setContent(html_9d8be85a6c902545e1aea5c24d0d04a6);
+            
+        
+
+        marker_78722f9ad9274185430861fcdc897e37.bindPopup(popup_7d956912df67aed2a0207ad25e5c8baf)
+        ;
+
+        
+    
+    
+            var marker_a174d30ea3addbcc07dc9e6cbb6647c7 = L.marker(
+                [24.867256, 56.095502],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_9714061c5ef70bdd6f3f2abb7b0dfc75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a174d30ea3addbcc07dc9e6cbb6647c7.setIcon(icon_9714061c5ef70bdd6f3f2abb7b0dfc75);
+        
+    
+        var popup_935bdadaecd27e8089a24ed30abc66e3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_411f3f0b6d6955df11ac34d8ca6ab0b4 = $(`<div id="html_411f3f0b6d6955df11ac34d8ca6ab0b4" style="width: 100.0%; height: 100.0%;">Site Name: S2<br>Location: Nahel_1<br>Latitude: 24.867256<br>Longitude: 56.095502<br>Irrigation: Saline<br>pH (Water): 7.33<br>pH (Soil): 10.69<br>EC (Water): 6.85 dS/m<br>EC (Soil): 0.226 dS/m<br>Organic Matter: 4.18%</div>`)[0];
+                popup_935bdadaecd27e8089a24ed30abc66e3.setContent(html_411f3f0b6d6955df11ac34d8ca6ab0b4);
+            
+        
+
+        marker_a174d30ea3addbcc07dc9e6cbb6647c7.bindPopup(popup_935bdadaecd27e8089a24ed30abc66e3)
+        ;
+
+        
+    
+    
+            var marker_e82a9bf94694b676582ad00359d28931 = L.marker(
+                [24.873767, 56.113067],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_ed2c1282d652a8bacd50a82e21f06b7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e82a9bf94694b676582ad00359d28931.setIcon(icon_ed2c1282d652a8bacd50a82e21f06b7d);
+        
+    
+        var popup_56e2fb0f196a1679a7aa743f4f67a1c9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c2d7d22b9673288d3bbc69c7f86b8001 = $(`<div id="html_c2d7d22b9673288d3bbc69c7f86b8001" style="width: 100.0%; height: 100.0%;">Site Name: S3<br>Location: Nahel_2<br>Latitude: 24.873767<br>Longitude: 56.113067<br>Irrigation: Saline<br>pH (Water): 7.57<br>pH (Soil): 7.8<br>EC (Water): 8.13 dS/m<br>EC (Soil): 0.22 dS/m<br>Organic Matter: 1.89%</div>`)[0];
+                popup_56e2fb0f196a1679a7aa743f4f67a1c9.setContent(html_c2d7d22b9673288d3bbc69c7f86b8001);
+            
+        
+
+        marker_e82a9bf94694b676582ad00359d28931.bindPopup(popup_56e2fb0f196a1679a7aa743f4f67a1c9)
+        ;
+
+        
+    
+    
+            var marker_5732164c4ab836a86195553f75e66b8a = L.marker(
+                [24.867258, 56.095302],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_19166b78c09558d8a6c03b2222cb91f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5732164c4ab836a86195553f75e66b8a.setIcon(icon_19166b78c09558d8a6c03b2222cb91f1);
+        
+    
+        var popup_ff3845c7f1e7c8bbb4ec7ce9d01ad5f0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3abda6d0376b64039037c9463e496f6c = $(`<div id="html_3abda6d0376b64039037c9463e496f6c" style="width: 100.0%; height: 100.0%;">Site Name: S4<br>Location: Nahel_3<br>Latitude: 24.867258<br>Longitude: 56.095302<br>Irrigation: Saline<br>pH (Water): 7.72<br>pH (Soil): 7.59<br>EC (Water): 8.13 dS/m<br>EC (Soil): 0.141 dS/m<br>Organic Matter: 2.516%</div>`)[0];
+                popup_ff3845c7f1e7c8bbb4ec7ce9d01ad5f0.setContent(html_3abda6d0376b64039037c9463e496f6c);
+            
+        
+
+        marker_5732164c4ab836a86195553f75e66b8a.bindPopup(popup_ff3845c7f1e7c8bbb4ec7ce9d01ad5f0)
+        ;
+
+        
+    
+    
+            var marker_99ba1b5bd339bebab97125c35ff350b5 = L.marker(
+                [24.410692, 55.398208],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_f12392c90382cfad8e41dfd868e172e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99ba1b5bd339bebab97125c35ff350b5.setIcon(icon_f12392c90382cfad8e41dfd868e172e6);
+        
+    
+        var popup_99bbc5e72d9e0571a1e63bd066f795c4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_256af029954bfc51088962e0426fd6cb = $(`<div id="html_256af029954bfc51088962e0426fd6cb" style="width: 100.0%; height: 100.0%;">Site Name: S5<br>Location: Nahshala<br>Latitude: 24.410692<br>Longitude: 55.398208<br>Irrigation: Saline<br>pH (Water): 7.41<br>pH (Soil): 6.99<br>EC (Water): 28.0 dS/m<br>EC (Soil): 4.89 dS/m<br>Organic Matter: 2.89%</div>`)[0];
+                popup_99bbc5e72d9e0571a1e63bd066f795c4.setContent(html_256af029954bfc51088962e0426fd6cb);
+            
+        
+
+        marker_99ba1b5bd339bebab97125c35ff350b5.bindPopup(popup_99bbc5e72d9e0571a1e63bd066f795c4)
+        ;
+
+        
+    
+    
+            var marker_cc1241bf62a10ff050d58e5c091f36e0 = L.marker(
+                [24.345611, 55.46075],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_27f38f42cca9a7cd04e1d06895c1aed3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc1241bf62a10ff050d58e5c091f36e0.setIcon(icon_27f38f42cca9a7cd04e1d06895c1aed3);
+        
+    
+        var popup_056bd66e7e8307a94ccb5d300ce382a6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3a2e47649dd05f6acfb89e56b83f010b = $(`<div id="html_3a2e47649dd05f6acfb89e56b83f010b" style="width: 100.0%; height: 100.0%;">Site Name: S6<br>Location: Seah_salem_east<br>Latitude: 24.345611<br>Longitude: 55.46075<br>Irrigation: Saline<br>pH (Water): 7.43<br>pH (Soil): 6.85<br>EC (Water): 8.26 dS/m<br>EC (Soil): 0.326 dS/m<br>Organic Matter: 1.37%</div>`)[0];
+                popup_056bd66e7e8307a94ccb5d300ce382a6.setContent(html_3a2e47649dd05f6acfb89e56b83f010b);
+            
+        
+
+        marker_cc1241bf62a10ff050d58e5c091f36e0.bindPopup(popup_056bd66e7e8307a94ccb5d300ce382a6)
+        ;
+
+        
+    
+    
+            var marker_6a166df42cabd2245abef278e862b220 = L.marker(
+                [24.345972, 55.440111],
+                {}
+            ).addTo(map_db1caa4044e6a48fbe15bee5f7946b33);
+        
+    
+            var icon_511a77779718021e604418373316e176 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a166df42cabd2245abef278e862b220.setIcon(icon_511a77779718021e604418373316e176);
+        
+    
+        var popup_868b904d8db630cb22825b2b8073b02f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_80c21aa0254d8e80cf47e6723197de95 = $(`<div id="html_80c21aa0254d8e80cf47e6723197de95" style="width: 100.0%; height: 100.0%;">Site Name: S7<br>Location: Seah_salem_west<br>Latitude: 24.345972<br>Longitude: 55.440111<br>Irrigation: Saline<br>pH (Water): 7.63<br>pH (Soil): 7.01<br>EC (Water): 7.88 dS/m<br>EC (Soil): 0.47 dS/m<br>Organic Matter: 2.25%</div>`)[0];
+                popup_868b904d8db630cb22825b2b8073b02f.setContent(html_80c21aa0254d8e80cf47e6723197de95);
+            
+        
+
+        marker_6a166df42cabd2245abef278e862b220.bindPopup(popup_868b904d8db630cb22825b2b8073b02f)
+        ;
+
+        
+    
+</script>
+</html>
